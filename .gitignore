@@ -1,22 +1,4 @@
-This tells Git which files to ignore
-
-1. Big data files
-
-*.csv
-
-2. Private Keys (CRITICAL!)
-
-This is your database password. NEVER upload it.
-
-serviceAccountKey.json
-
-3. Virtual Environment
-
-This folder contains libraries and is system-specific.
-
 venv/
-
-4. Python cache files
-
-pycache/
-*.pyc
+__pycache__/
+*.csv
+serviceAccountKey.json
